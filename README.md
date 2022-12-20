@@ -7,8 +7,7 @@
 Git Project
 
 ### Description
-Describe what your project is about and what it does
-
+The project is about git and github
 ### Files used
 Include the files used
 
