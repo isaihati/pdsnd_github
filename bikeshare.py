@@ -30,7 +30,7 @@ cago
         if month in months or month =='all':
             break
         else:
-            print("You Entered an Invalid month or not all, Try again")
+            print("You have an invalid input, Try again")
     
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
