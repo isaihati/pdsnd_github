@@ -35,12 +35,12 @@ cago
         if month in months or month =='all':
             break
         else:
-            print("You Entered an Invalid month or not all, Try again")
+            print("You have an invalid input, Try again")
     
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     days = ['all' , 'monday', 'tuesday','wednesday', 'thursday', 'friday', 'saturday', 'sunday']
-    day = input('Enter a day of the week(sunday-saturday) write all for all days\n Your Choice: ').lower()
+    day = input('Enter a day (sunday-saturday) write all for all days\n Your Choice: ').lower()
     while day not in days:
         day=input('You Entered an Invalid Day, Tray again ').lower()
 
